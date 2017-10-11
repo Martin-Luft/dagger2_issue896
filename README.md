@@ -6,6 +6,8 @@ Since Dagger 2.12 - Importing this project into Eclipse will result in this erro
 
 > The method provider(Provider<T>) in the type DoubleCheck is not applicable for the arguments (Factory)
 
+Using plain Maven produces no error.
+
 I found 2 possibilities to fix this error:
 
 1) Remove `@Singleton` from `RootView`
